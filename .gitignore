@@ -1,1 +1,3 @@
 /cache
+/app/cache
+.DS_Store
