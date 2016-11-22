@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-11-22 12:47:03
+<?php /* Smarty version Smarty-3.1.19, created on 2016-11-22 15:28:48
          compiled from "/Applications/MAMP/htdocs/staraddons/admin560sfdxgf/themes/new-theme/template/components/layout/employee_dropdown.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:115604840058343037e56056-49644468%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '5bacf1e82e3fdece6bf9918fa5cfafa8b660d198' => 
     array (
       0 => '/Applications/MAMP/htdocs/staraddons/admin560sfdxgf/themes/new-theme/template/components/layout/employee_dropdown.tpl',
-      1 => 1479814373,
+      1 => 1479824819,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_58343037e6c0e3_38173716',
   'variables' => 
   array (
     'employee' => 0,
@@ -22,8 +24,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'login_link' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58343037e6c0e3_38173716',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_58343037e6c0e3_38173716')) {function content_58343037e6c0e3_38173716($_smarty_tpl) {?>
 <div class="employee-dropdown dropdown">

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-11-22 14:54:54
+<?php /* Smarty version Smarty-3.1.19, created on 2016-11-22 15:29:32
          compiled from "/Applications/MAMP/htdocs/staraddons/admin560sfdxgf/themes/default/template/controllers/categories/helpers/list/list_header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:48202521158344e2e38c333-91879806%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,13 +7,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '64f1f952e32f32674e63e122c5e28508e9caa45f' => 
     array (
       0 => '/Applications/MAMP/htdocs/staraddons/admin560sfdxgf/themes/default/template/controllers/categories/helpers/list/list_header.tpl',
-      1 => 1479814373,
+      1 => 1479824819,
       2 => 'file',
     ),
     '1da1419fb7fe4c8d23670323aef20c6ddd27b6fe' => 
     array (
       0 => '/Applications/MAMP/htdocs/staraddons/admin560sfdxgf/themes/default/template/helpers/list/list_header.tpl',
-      1 => 1479814373,
+      1 => 1479824819,
       2 => 'file',
     ),
   ),
@@ -21,6 +21,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_58344e2e6f9ef4_00476632',
   'variables' => 
   array (
     'ajax' => 0,
@@ -69,8 +71,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'filters_has_value' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58344e2e6f9ef4_00476632',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_58344e2e6f9ef4_00476632')) {function content_58344e2e6f9ef4_00476632($_smarty_tpl) {?><?php if (!is_callable('smarty_function_math')) include '/Applications/MAMP/htdocs/staraddons/vendor/prestashop/smarty/plugins/function.math.php';
 ?>
