@@ -21,7 +21,7 @@ html {
 
 body {
   margin: 0; }
-
+background: #000000 url(/Applications/MAMP/htdocs/staraddons/img/fond.jpg)
 article,
 aside,
 details,
@@ -542,7 +542,7 @@ dl.row > dd + dt {
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fff;
+  background-color: black;
   border: 1px solid #ddd;
   border-radius: 0;
   transition: all .2s ease-in-out;
@@ -638,6 +638,7 @@ pre {
     clear: both; }
 
 .row {
+        text-decoration-color: white;
   margin-left: -15px;
   margin-right: -15px; }
   .row::after {
@@ -2220,7 +2221,7 @@ input[type="button"].btn-block {
   display: block;
   padding: 5px 20px;
   font-size: 0.875rem;
-  color: #ebebeb;
+  color: white;
   white-space: nowrap; }
 
 .dropdown-backdrop {
@@ -4833,7 +4834,7 @@ p {
 .h2,
 .h3 {
   text-transform: uppercase;
-  color: #414141; }
+  color: white; }
 
 .h4 {
   font-weight: 700;
@@ -6307,8 +6308,9 @@ body#checkout {
   bottom: 0.5rem; }
 
 #products .all-product-link, .featured-products .all-product-link, .product-accessories .all-product-link {
+    visibility: hidden;
   clear: both;
-  color: #878787;
+  color: white;
   font-weight: 700;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem; }
@@ -6320,23 +6322,8 @@ body#checkout {
       box-shadow: 0 -5px 10px -5px rgba(0, 0, 0, 0.2); } }
 
 #custom-text {
-  background: white;
-  border-radius: 2px;
-  margin-bottom: 1.5rem;
-  padding: 3.125rem 3.125rem;
-  text-align: center; }
-  #custom-text h3 {
-    text-transform: uppercase;
-    color: #414141;
-    font-size: 1.5625rem;
-    font-weight: 700; }
-  #custom-text p {
-    color: #414141;
-    font-weight: 400;
-    font-size: 1.1em; }
-    #custom-text p .dark {
-      color: #acaaa6;
-      font-weight: 400; }
+    visibility: hidden;
+}
 
 .page-content.page-cms {
   background: white;
@@ -7928,12 +7915,12 @@ li.product-flag {
 
 /*** HEADER ***/
 #header {
-  background: white;
+  background: black; 
   color: #acaaa6; }
   #header .logo {
     max-width: 100%; }
   #header a {
-    color: #414141; }
+    color: #acaaa6; }
     #header a:hover {
       text-decoration: none;
       color: #2fb5d2; }
@@ -7997,14 +7984,14 @@ li.product-flag {
     #header .header-nav .cart-preview .body {
       display: none; }
     #header .header-nav .blockcart {
-      background: #ebebeb;
+      background: black;
       height: 3rem;
       padding: 0.75rem;
       margin-left: 0.9375rem;
       text-align: center;
       white-space: nowrap; }
       #header .header-nav .blockcart a {
-        color: #acaaa6; }
+        color: white; }
         #header .header-nav .blockcart a:hover {
           color: #2fb5d2; }
       #header .header-nav .blockcart.active a:hover {
@@ -8039,13 +8026,15 @@ li.product-flag {
 
 /*** WRAPPER ***/
 #wrapper {
-  background: #ebebeb;
+  background: url(../../../../../img/fond.jpg);
   box-shadow: inset 0 2px 5px 0 rgba(0, 0, 0, 0.11);
   padding-top: 1.5625rem; }
   #wrapper .banner {
     margin-bottom: 1.5rem;
     display: block; }
     #wrapper .banner img {
+      visibility: hidden;
+        margin-left: 21%;
       box-shadow: 1px 1px 7px 0 rgba(0, 0, 0, 0.15); }
   #wrapper .breadcrumb {
     background: transparent;
@@ -8090,6 +8079,7 @@ li.product-flag {
 
 /*** FOOTER ***/
 #footer {
+    background-color: black;
   padding-top: 2.5rem; }
 
 /*** Responsive part ***/
@@ -8101,9 +8091,9 @@ li.product-flag {
     width: 100%;
     margin-top: 1rem; }
   #header {
-    background: #ebebeb; }
+    background: blue; }
     #header .header-nav {
-      background: white;
+      background: blue;
       margin-bottom: 0.625rem;
       color: #414141; }
       #header .header-nav .top-logo {
